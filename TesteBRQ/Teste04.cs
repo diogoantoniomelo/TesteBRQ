@@ -41,7 +41,7 @@ namespace TesteBRQ
 
             foreach (var lista in listaPositivoNegativo)
             {
-                texto = texto + "," + lista ;
+                texto = texto + ", " + lista ;
             }
 
             textBox1.Text = texto.Substring(1);
